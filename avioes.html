@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviões (Avançado) - Motores da NEP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <!-- O cabeçalho é idêntico ao das outras páginas -->
+        <div class="container">
+            <a href="index.html" class="logo">Motores da <span>NEP</span></a>
+            <nav>
+                <button id="menu-button" aria-label="Abrir Menu">☰</button>
+                <ul id="menu">
+                    <li class="dropdown">
+                        <a href="carros.html">Carros ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="carros.html#modelos">Modelos e Estruturas</a></li>
+                            <li><a href="carros.html#customizacao">Customização Técnica</a></li>
+                            <li><a href="carros.html#dinamica-veicular">Dinâmica Veicular</a></li>
+                            <li><a href="carros.html#guias-compra">Guia de Compra Detalhado</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="motos.html">Motos ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="motos.html#modelos">Modelos e Tribos</a></li>
+                            <li><a href="motos.html#customizacao">Customização e Performance</a></li>
+                            <li><a href="motos.html#tecnicas-pilotagem">Técnicas de Pilotagem</a></li>
+                            <li><a href="motos.html#seguranca">Segurança Ativa e Passiva</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="avioes.html">Aviões ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="avioes.html#modelos">Tipos e Funções</a></li>
+                            <li><a href="avioes.html#aerodinamica">Princípios de Voo</a></li>
+                            <li><a href="avioes.html#instrumentos">Instrumentos Essenciais</a></li>
+                            <li><a href="avioes.html#curiosidades">Fatos da Aviação</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="guias.html">Guias Gerais</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container section">
+            <h1 class="page-title">Universo da Aviação: A Fundo</h1>
+
+            <section id="modelos">
+                <h2>Tipos, Funções e Configurações de Asa</h2>
+                <p>A posição e o formato da asa definem a missão da aeronave.</p>
+                
+                <h3>Asa Alta vs. Asa Baixa</h3>
+                <p>Aeronaves de <strong>asa alta</strong> (como o Cessna 172) possuem maior estabilidade pendular, tornando o voo mais suave e dócil, ideal para treinamento. Também oferecem ótima visibilidade para baixo. Já aeronaves de <strong>asa baixa</strong> (como o Piper Archer) são geralmente mais ágeis e aerodinâmicas. O trem de pouso mais curto e largo na asa baixa também facilita o pouso e o taxiamento.</p>
+                <!-- [Imagem comparando um Cessna (asa alta) com um Piper (asa baixa)] -->
+                
+                <h3>Asas Enflexadas</h3>
+                <p>Em jatos comerciais e executivos, as asas são inclinadas para trás (enflexamento). Isso "engana" o fluxo de ar, fazendo com que ele se comporte como se estivesse em uma velocidade menor. Essa técnica atrasa a formação de ondas de choque sônicas sobre a asa, permitindo que a aeronave voe em altas velocidades subsônicas (próximas à velocidade do som) de forma eficiente e segura.</p>
+            </section>
+
+            <section id="aerodinamica">
+                <h2>Princípios de Voo e Superfícies de Controle</h2>
+                <p>Como um avião se sustenta e se move no ar?</p>
+                <h3>Geração de Sustentação</h3>
+                <p>A sustentação é gerada pelo formato do aerofólio (o perfil da asa). O ar que passa por cima da asa (extradorso) percorre um caminho mais longo que o ar que passa por baixo (intradorso). Pelo Princípio de Bernoulli, isso cria uma zona de baixa pressão em cima e alta pressão embaixo, resultando em uma força que empurra a asa para cima: a sustentação.</p>
+
+                <h3>Eixos de Movimento e Superfícies de Controle</h3>
+                <p>Um avião se move em três eixos, cada um controlado por uma superfície primária:</p>
+                <ul>
+                    <li><strong>Eixo Lateral (Arfagem):</strong> Movimento de "cabeça para cima/baixo". Controlado pelo <strong>profundor</strong>, localizado na cauda horizontal.</li>
+                    <li><strong>Eixo Longitudinal (Rolamento):</strong> Movimento de inclinação das asas. Controlado pelos <strong>ailerons</strong>, localizados nas pontas das asas.</li>
+                    <li><strong>Eixo Vertical (Guinada):</strong> Movimento do "nariz para esquerda/direita". Controlado pelo <strong>leme de direção</strong>, na cauda vertical.</li>
+                </ul>
+                <p><em>Uma curva coordenada e eficiente em um avião requer o uso simultâneo e preciso dos ailerons e do leme de direção.</em></p>
+            </section>
+
+            <section id="instrumentos">
+                <h2>Os Instrumentos Essenciais ("Six Pack")</h2>
+                <p>Em aeronaves tradicionais, seis instrumentos analógicos formam a base da pilotagem por instrumentos.</p>
+                <!-- [Imagem de um painel com o "six pack" destacado] -->
+                <ol>
+                    <li><strong>Velocímetro (Airspeed Indicator):</strong> Mostra a velocidade da aeronave em relação à massa de ar.</li>
+                    <li><strong>Horizonte Artificial (Attitude Indicator):</strong> Mostra a atitude da aeronave, ou seja, sua inclinação e rolamento em relação ao horizonte. Essencial para voar sem referências visuais.</li>
+                    <li><strong>Altímetro (Altimeter):</strong> Mede a altitude da aeronave em relação ao nível do mar, baseado na pressão atmosférica.</li>
+                    <li><strong>Coordenador de Curva (Turn Coordinator):</strong> Indica a razão e a qualidade da curva. Uma bolinha no instrumento ajuda o piloto a coordenar a curva com o leme.</li>
+                    <li><strong>Giro Direcional (Heading Indicator):</strong> Funciona como uma bússola estabilizada, mostrando o rumo magnético da aeronave.</li>
+                    <li><strong>Variômetro (Vertical Speed Indicator):</strong> Mostra a razão de subida ou descida da aeronave em pés por minuto.</li>
+                </ol>
+            </section>
+
+            <section id="curiosidades">
+                <h2>Fatos Técnicos da Aviação</h2>
+                <p>Detalhes da engenharia que tornam o voo possível e seguro.</p>
+                <ul>
+                    <li><strong>O que é um Estol (Stall)?</strong> Diferente do que muitos pensam, um estol não é quando o motor para. O estol é um fenômeno aerodinâmico que ocorre quando a asa excede um ângulo de ataque crítico. Nesse ponto, o fluxo de ar sobre o extradorso se descola, e a asa perde drasticamente sua capacidade de gerar sustentação. Todos os pilotos são treinados exaustivamente para reconhecer e recuperar de um estol.</li>
+                    <li><strong>Função dos Winglets:</strong> As pontas curvadas para cima nas asas dos jatos (winglets) servem para diminuir o arrasto induzido. Elas dificultam a formação de vórtices de ponta de asa, que são "redemoinhos" de ar que desperdiçam energia. Com winglets, o avião se torna mais eficiente e consome menos combustível.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Motores da NEP. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
