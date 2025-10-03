@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos e Estilos de Carros - Motores da NEP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .category-block { margin-bottom: 3rem; }
+        .category-block h3 { font-size: 2.2rem; color: #0d6efd; margin-bottom: 1rem; border-bottom: 2px solid #0d6efd; padding-bottom: 0.5rem; }
+        .category-block h4 { font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+        .category-block ul { list-style-position: inside; padding-left: 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- ATENÇÃO: Este é o novo menu que você deve usar em TODAS as suas páginas -->
+        <div class="container">
+            <a href="index.html" class="logo">Motores da <span>NEP</span></a>
+            <nav>
+                <button id="menu-button" aria-label="Abrir Menu">☰</button>
+                <ul id="menu">
+                    <li class="dropdown">
+                        <a href="carros.html">Carros ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="modelos-carros.html">Modelos e Estilos</a></li>
+                            <li><a href="carros.html#customizacao">Customização</a></li>
+                            <li><a href="carros.html#dinamica-veicular">Dinâmica Veicular</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="motos.html">Motos ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="modelos-motos.html">Modelos e Estilos</a></li>
+                            <li><a href="motos.html#customizacao">Customização</a></li>
+                            <li><a href="motos.html#tecnicas-pilotagem">Técnicas de Pilotagem</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="avioes.html">Aviões ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="modelos-avioes.html">Modelos e Estilos</a></li>
+                            <li><a href="avioes.html#aerodinamica">Princípios de Voo</a></li>
+                            <li><a href="avioes.html#instrumentos">Instrumentos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="guias.html">Guias Gerais</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container section">
+            <h1 class="page-title">Enciclopédia de Estilos Automotivos</h1>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 4rem; font-size: 1.1em;">Um guia completo sobre as carrocerias que definem o mundo dos carros, da praticidade do dia a dia ao sonho da alta performance.</p>
+
+            <div id="carros" class="category-block">
+                <h3><i class="fa-solid fa-car-side"></i> Carrocerias e Suas Vocacões</h3>
+                
+                <div>
+                    <h4>Sedans: O Equilíbrio Clássico</h4>
+                    <p><strong>Filosofia:</strong> Conforto, elegância e estabilidade. A carroceria de três volumes (motor, cabine, porta-malas) é a mais tradicional e aerodinâmica para longas viagens. O centro de gravidade baixo favorece a dirigibilidade em estradas.</p>
+                    <p><strong>Ideal para:</strong> Famílias, executivos e quem prioriza o conforto em viagens rodoviárias.</p>
+                    <p><strong>Exemplos Notáveis:</strong> Toyota Corolla, Honda Civic, BMW Série 3.</p>
+                    <!-- [Imagem de um Sedan moderno] -->
+                </div>
+
+                <div>
+                    <h4>Hatchbacks: Agilidade Urbana</h4>
+                    <p><strong>Filosofia:</strong> Praticidade, versatilidade e diversão. A carroceria de dois volumes com a grande porta traseira é perfeita para a cidade. São fáceis de manobrar e a capacidade de rebater os bancos cria um espaço de carga surpreendente.</p>
+                    <p><strong>Ideal para:</strong> Jovens, casais sem filhos e quem vive em grandes centros urbanos.</p>
+                    <p><strong>Exemplos Notáveis:</strong> Volkswagen Polo/Golf, Hyundai HB20, Honda Fit.</p>
+                    <!-- [Imagem de um Hatchback esportivo] -->
+                </div>
+                
+                <div>
+                    <h4>SUVs (Utilitários Esportivos): A Versatilidade Moderna</h4>
+                    <p><strong>Filosofia:</strong> Segurança, espaço e robustez. A posição de dirigir elevada, a maior altura do solo e o amplo espaço interno conquistaram o mercado. São os "canivetes suíços" do mundo automotivo, prontos para a selva de pedra e escapadas de fim de semana.</p>
+                    <p><strong>Ideal para:</strong> Famílias que precisam de espaço e versatilidade para diferentes tipos de terreno.</p>
+                    <p><strong>Exemplos Notáveis:</strong> Jeep Compass, Toyota SW4, Honda HR-V.</p>
+                    <!-- [Imagem de um SUV moderno] -->
+                </div>
+
+                <div>
+                    <h4>Picapes: Força para o Trabalho e Lazer</h4>
+                    <p><strong>Filosofia:</strong> Resistência, capacidade de carga e durabilidade. Construídas sobre chassi, são feitas para aguentar o trabalho pesado, seja no campo ou na cidade. A caçamba permite o transporte de cargas de todos os tipos.</p>
+                    <p><strong>Ideal para:</strong> Agronegócio, construção civil, e entusiastas do off-road e de aventura.</p>
+                    <p><strong>Exemplos Notáveis:</strong> Toyota Hilux, Ford Ranger, Fiat Toro.</p>
+                    <!-- [Imagem de uma Picape em um terreno off-road] -->
+                </div>
+
+                <div>
+                    <h4>Coupés e Esportivos: A Emoção em Primeiro Lugar</h4>
+                    <p><strong>Filosofia:</strong> Performance, design e prazer ao dirigir. Geralmente com duas portas e teto baixo, tudo em um coupé é projetado em função da dinâmica e da estética. São carros que priorizam a experiência do motorista acima de tudo.</p>
+                    <p><strong>Ideal para:</strong> Entusiastas de velocidade e para quem vê o ato de dirigir como uma paixão.</p>
+                    <p><strong>Exemplos Notáveis:</strong> Ford Mustang, Porsche 911, Chevrolet Camaro.</p>
+                    <!-- [Imagem de um carro esportivo como o Porsche 911] -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Motores da NEP. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
