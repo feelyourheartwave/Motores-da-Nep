@@ -3,23 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo Moto - O Seu Hub de Motociclismo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Motores da NEP - Tudo sobre Carros, Motos e Aviões</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
         <div class="container">
-            <a href="index.html" class="logo">Mundo Moto</a>
+            <a href="index.html" class="logo">Motores da <span>NEP</span></a>
             <nav>
-                <button id="menu-toggle" aria-label="Abrir menu">☰</button>
+                <button id="menu-button" aria-label="Abrir Menu">☰</button>
                 <ul id="menu">
-                    <li><a href="aprenda.html">Pilotar Moto</a></li>
-                    <li><a href="customizacao.html">Customização (Motos)</a></li>
-                    <li><a href="manutencao.html">Manutenção (Motos)</a></li>
-                    <li><a href="carros-customizacao.html">Customização (Carros)</a></li>
-                    <li><a href="carros-manutencao.html">Manutenção (Carros)</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
+                    <li class="dropdown">
+                        <a href="carros.html">Carros ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="carros.html#modelos">Modelos e Estilos</a></li>
+                            <li><a href="carros.html#customizacao">Customização</a></li>
+                            <li><a href="carros.html#dicas-direcao">Dicas de Direção</a></li>
+                            <li><a href="carros.html#guias-compra">Guias de Compra</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="motos.html">Motos ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="motos.html#modelos">Modelos e Estilos</a></li>
+                            <li><a href="motos.html#customizacao">Customização</a></li>
+                            <li><a href="motos.html#dicas-pilotagem">Dicas de Pilotagem</a></li>
+                            <li><a href="motos.html#equipamentos">Equipamentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="avioes.html">Aviões ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="avioes.html#modelos">Modelos e Estilos</a></li>
+                            <li><a href="avioes.html#dicas-pilotagem">Dicas de Pilotagem</a></li>
+                            <li><a href="avioes.html#curiosidades">Curiosidades</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="guias.html">Guias Gerais</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,63 +51,57 @@
 
     <main>
         <section class="hero">
-            <div class="container">
-                <h1>Bem-vindo ao Mundo Moto</h1>
-                <p>Sua jornada sobre duas ou quatro rodas começa aqui. Explore guias, aprenda a linguagem e descubra a arte da customização.</p>
+            <div class="hero-content">
+                <h1>A Paixão que nos Move</h1>
+                <p>Seu universo de velocidade, tecnologia e liberdade. Explore o mundo dos motores em terra e no ar.</p>
+                <a href="#destaques" class="cta-button">Explorar Agora</a>
             </div>
         </section>
 
-        <section class="featured-articles">
-            <div class="container">
-                <h2>Destaques</h2>
-                <div class="articles-grid">
-                    <article>
-                        <img src="images/aprenda-thumb.jpg" alt="Pessoa aprendendo a pilotar uma moto">
-                        <h3>Aprenda a Pilotar</h3>
-                        <p>Do processo da CNH às técnicas de pilotagem defensiva, seu guia completo para começar com segurança.</p>
-                        <a href="aprenda.html">Leia mais</a>
-                    </article>
-                    <article>
-                        <img src="images/custom-thumb.jpg" alt="Moto customizada estilo Cafe Racer">
-                        <h3>Customização de Motos</h3>
-                        <p>Explore os estilos Bobber, Chopper, Cafe Racer e Scrambler e aprenda como transformar sua moto.</p>
-                        <a href="customizacao.html">Leia mais</a>
-                    </article>
-                    <article>
-                        <img src="images/carro-custom-thumb.jpg" alt="Carro com customização de rua">
-                        <h3>Customização de Carros</h3>
-                        <p>Conheça os estilos Street, Euro Look e JDM e mergulhe na cultura dos carros modificados no Brasil.</p>
-                        <a href="carros-customizacao.html">Leia mais</a>
-                    </article>
-                    <article>
-                        <img src="images/manutencao-thumb.jpg" alt="Mecânico fazendo manutenção em uma moto">
-                        <h3>Manutenção de Motos</h3>
-                        <p>Aprenda a cuidar da sua máquina com nosso guia de manutenção básica para todos os pilotos.</p>
-                        <a href="manutencao.html">Leia mais</a>
-                    </article>
-                     <article>
-                        <img src="images/carro-manutencao-thumb.jpg" alt="Mecânico verificando o óleo de um carro">
-                        <h3>Manutenção de Carros</h3>
-                        <p>Um checklist essencial para manter seu carro seguro, confiável e funcionando perfeitamente.</p>
-                        <a href="carros-manutencao.html">Leia mais</a>
-                    </article>
-                    <article>
-                        <img src="images/girias-thumb.jpg" alt="Grupo de motociclistas em uma estrada">
-                        <h3>Léxico do Piloto</h3>
-                        <p>Aprenda as gírias e os termos técnicos para falar a língua da estrada e entender sua máquina.</p>
-                        <a href="girias.html">Leia mais</a>
-                    </article>
+        <section id="destaques" class="container section">
+            <h2>Nossos Universos</h2>
+            <div class="cards-container">
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <h3>Carros</h3>
+                    <p>De clássicos a supercarros, descubra guias de customização, modelos e dicas de direção segura.</p>
+                    <a href="carros.html" class="card-link">Ver Mais &rarr;</a>
                 </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-motorcycle"></i>
+                    </div>
+                    <h3>Motos</h3>
+                    <p>Sinta a liberdade em duas rodas. Veja estilos, dicas de pilotagem e os melhores equipamentos.</p>
+                    <a href="motos.html" class="card-link">Ver Mais &rarr;</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-plane-up"></i>
+                    </div>
+                    <h3>Aviões</h3>
+                    <p>Explore os céus. Conheça os diferentes tipos de aeronaves, curiosidades e o mundo da aviação.</p>
+                    <a href="avioes.html" class="card-link">Ver Mais &rarr;</a>
+                </div>
+
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Mundo Moto. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Motores da NEP. Todos os direitos reservados.</p>
+            <p>Um site feito para apaixonados por motores.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
+
+
