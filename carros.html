@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros (Avançado) - Motores da NEP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Motores da <span>NEP</span></a>
+            <nav>
+                <button id="menu-button" aria-label="Abrir Menu">☰</button>
+                <ul id="menu">
+                    <li class="dropdown">
+                        <a href="carros.html">Carros ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#modelos">Modelos e Estruturas</a></li>
+                            <li><a href="#customizacao">Customização Técnica</a></li>
+                            <li><a href="#dinamica-veicular">Dinâmica Veicular</a></li>
+                            <li><a href="#guias-compra">Guia de Compra Detalhado</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="motos.html">Motos ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="motos.html#modelos">Modelos e Tribos</a></li>
+                            <li><a href="motos.html#customizacao">Customização e Performance</a></li>
+                            <li><a href="motos.html#tecnicas-pilotagem">Técnicas de Pilotagem</a></li>
+                            <li><a href="motos.html#seguranca">Segurança Ativa e Passiva</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="avioes.html">Aviões ▼</a>
+                         <ul class="dropdown-content">
+                            <li><a href="avioes.html#modelos">Tipos e Funções</a></li>
+                            <li><a href="avioes.html#aerodinamica">Princípios de Voo</a></li>
+                            <li><a href="avioes.html#instrumentos">Instrumentos Essenciais</a></li>
+                            <li><a href="avioes.html#curiosidades">Fatos da Aviação</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="guias.html">Guias Gerais</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container section">
+            <h1 class="page-title">Universo dos Carros: A Fundo</h1>
+
+            <section id="modelos">
+                <h2>Modelos e Estruturas de Carroceria</h2>
+                <p>Além do formato, a estrutura de um carro define seu comportamento, segurança e capacidade. Entenda as duas construções principais:</p>
+                
+                <h3>Estrutura Monobloco (Unibody)</h3>
+                <p>A grande maioria dos carros de passeio modernos utiliza essa estrutura. Nela, a carroceria e o chassi são uma única peça soldada. Isso resulta em um veículo mais leve, com maior rigidez torcional (resiste melhor a torções, melhorando a dirigibilidade) e zonas de deformação programada mais eficientes para absorver impactos em acidentes.</p>
+                <!-- [Imagem de um diagrama de monobloco] -->
+
+                <h3>Carroceria sobre Chassi (Body-on-Frame)</h3>
+                <p>Neste método tradicional, a carroceria é um componente separado, parafusado sobre um chassi rígido em formato de escada. É a construção usada em picapes e SUVs raiz (como a Toyota Hilux ou o Troller T4). Oferece extrema robustez para cargas pesadas e terrenos difíceis, além de ser mais fácil de reparar em caso de danos estruturais. Em contrapartida, são mais pesados e menos precisos na direção.</p>
+                <!-- [Imagem de um chassi de picape com a carroceria separada] -->
+            </section>
+
+            <section id="customizacao">
+                <h2>Customização Técnica: Além da Estética</h2>
+                <p>Modificações que alteram profundamente o comportamento e a performance do carro.</p>
+                <ul>
+                    <li><strong>Rodas: Tala e Offset.</strong> Além do aro e do design, a <em>tala</em> (largura da roda) e o <em>offset</em> (distância entre o centro da roda e a face de montagem) são cruciais. Um offset incorreto pode forçar os rolamentos e alterar a geometria da suspensão. Rodas mais largas permitem pneus mais largos, aumentando a aderência, mas também o consumo.</li>
+                    <li><strong>Suspensão: Coilovers e Molas Esportivas.</strong> Molas esportivas apenas rebaixam o carro, enrijecendo a suspensão. Já um kit <em>coilover</em> (mola e amortecedor integrados) permite ajustar a altura e, em modelos mais avançados, a carga do amortecedor (compressão e retorno), oferecendo um ajuste fino de dirigibilidade para rua ou pista.</li>
+                    <li><strong>Performance: Remap da ECU.</strong> A ECU (Unidade de Controle do Motor) gerencia parâmetros como injeção de combustível e ignição. O <em>remap</em> é a reprogramação deste software para otimizar a queima de combustível, buscando mais potência e torque. É uma das formas mais eficientes de ganhar performance em motores turbo.</li>
+                </ul>
+            </section>
+
+            <section id="dinamica-veicular">
+                <h2>Dinâmica Veicular: Entendendo o Comportamento</h2>
+                <p>Por que um carro sai de frente ou de traseira? A resposta está na física.</p>
+                <h3>Subesterço (Understeer)</h3>
+                <p>Ocorre quando o carro vira menos do que o comandado pelo volante, saindo de frente na curva. É mais comum em carros de tração dianteira. Acontece quando os pneus dianteiros perdem aderência. <strong>Como corrigir:</strong> alivie suavemente o acelerador (sem tirar o pé de vez) para transferir peso para a dianteira e recuperar a aderência. Não vire mais o volante, pois isso só piora a situação.</p>
+                
+                <h3>Sobesterço (Oversteer)</h3>
+                <p>Ocorre quando o carro vira mais do que o comandado, com a traseira "escapando". É característico de carros de tração traseira potentes. Acontece quando os pneus traseiros perdem aderência. <strong>Como corrigir:</strong> Gire o volante na direção oposta à da curva (contraesterço) de forma rápida e precisa para neutralizar a derrapagem da traseira. Module o acelerador com cuidado para estabilizar o veículo.</p>
+            </section>
+
+            <section id="guias-compra">
+                <h2>Guia de Compra Detalhado (Usados)</h2>
+                <p>Uma inspeção minuciosa pode te salvar de grandes dores de cabeça.</p>
+                <ol>
+                    <li><strong>Análise Estrutural:</strong> Verifique o alinhamento das frestas entre portas, capô e porta-malas. Diferenças grandes indicam reparos malfeitos. Procure por pontos de solda diferentes dos originais nas longarinas e na estrutura interna do cofre do motor.</li>
+                    <li><strong>Motor a Frio:</strong> Sempre peça para ligar o motor com ele frio. É nesse momento que barulhos anormais (tuchos, correias) e dificuldades na partida aparecem.</li>
+                    - <strong>Cor da Fumaça:</strong> Fumaça <em>azulada</em> indica queima de óleo (motor pode precisar de retífica). Fumaça <em>branca e densa</em> pode indicar queima de fluido de arrefecimento (problema na junta do cabeçote).
+                    <li><strong>Inspeção de Fluidos:</strong> A vareta do óleo não deve ter aspecto de "doce de leite" (borra), que pode indicar mistura de água no óleo. O fluido de arrefecimento no reservatório deve estar limpo, sem sinais de ferrugem ou óleo.</li>
+                    <li><strong>Test Drive Atento:</strong> Em uma rua segura, acelere e freie com mais vigor. O carro deve manter a trajetória reta. Passe por ondulações e ouça por barulhos metálicos na suspensão (pivôs, terminais). Teste todos os equipamentos elétricos.</li>
+                </ol>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Motores da NEP. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
